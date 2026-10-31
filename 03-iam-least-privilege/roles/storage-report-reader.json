@@ -1,0 +1,17 @@
+
+{
+  "Name": "Storage Report Reader",
+  "IsCustom": true,
+  "Description": "Read-only access to Azure Storage resources for security assessment and reporting.",
+  "Actions": [
+    "Microsoft.Storage/storageAccounts/read",
+    "Microsoft.Storage/storageAccounts/blobServices/read",
+    "Microsoft.Storage/storageAccounts/blobServices/containers/read"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/7c01ea58-6bb7-43.........."
+  ]
+}

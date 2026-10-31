@@ -1,0 +1,20 @@
+
+{
+  "Name": "Security Auditor Reader",
+  "IsCustom": true,
+  "Description": "Read-only access to selected Azure resources and security configurations for security auditing.",
+  "Actions": [
+    "*/read",
+    "Microsoft.Authorization/roleAssignments/read",
+    "Microsoft.Authorization/roleDefinitions/read",
+    "Microsoft.Security/*/read",
+    "Microsoft.Insights/diagnosticSettings/read",
+    "Microsoft.Insights/eventtypes/values/read"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/7c01ea58-6bb7-434............"
+  ]
+}
